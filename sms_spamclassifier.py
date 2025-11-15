@@ -12,6 +12,11 @@ from nltk.corpus import stopwords
 from nltk.stem import WordNetLemmatizer
 
 
+# Ensure required resources are available
+nltk.download('stopwords', quiet=True)
+nltk.download('wordnet', quiet=True)
+
+
 
 def clean_text(text):
     # Lowercase

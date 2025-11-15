@@ -9,6 +9,8 @@ import nltk
 
 from nltk.corpus import stopwords
 from nltk.stem import WordNetLemmatizer
+nltk.download('punkt', quiet=True)
+nltk.download('punkt_tab', quiet=True)
 
 model = load("spam_model.joblib")
 vectorizer = load("vectorizer.joblib")
