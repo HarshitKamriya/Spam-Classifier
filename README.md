@@ -1,5 +1,7 @@
 # 📧 Spam Classifier with Streamlit
 
+Live Demo : https://spam-classifier-torgkx83xpvbzndfelztfh.streamlit.app/
+
 A machine learning project that classifies SMS messages as **Spam** or **Ham (Not Spam)** using **Naive Bayes** and a **Bag-of-Words model**.  
 The app is built with **Streamlit** for an interactive GUI and supports user input, probability scores, and model performance metrics.
 
